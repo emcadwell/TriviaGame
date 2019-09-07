@@ -1,0 +1,49 @@
+body {
+    background-image: url("../images/triviaGameBckgnd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1#Trivia {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+    color: rgb(221, 199, 170);
+    background: black;
+    opacity: .9;
+}
+
+div.timer {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+div.question {
+    font-size: 20px;
+}
+
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+    float: left;
+    opacity: .75;
+    border-radius: 1rem;
+}
+
+button.answerchoice {
+    display: none;
+    margin-top: 10px;
+}
+
+button:hover {
+	background-color: rgb(206, 178, 109);
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+h1, h2, h3, .question {
+	text-align: center;
+}
